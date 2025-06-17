@@ -1,5 +1,37 @@
 [
   {
+    "ContainingType": "UMS.Controllers.AccountController",
+    "Method": "Register",
+    "RelativePath": "api/Account/EmployeeRegister",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "emp",
+        "Type": "UMS.Models.Entities.Employee",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UMS.Controllers.AccountController",
+    "Method": "Register",
+    "RelativePath": "api/Account/ManagerRegister",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "managerModel",
+        "Type": "UMS.Models.ManagerRegisterModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "UMS.Controllers.DesignationController",
     "Method": "Create",
     "RelativePath": "api/Designation",

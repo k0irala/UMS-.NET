@@ -10,5 +10,6 @@
         public string Email { get; set; } = string.Empty;
         public string DesignationId { get; set; } = string.Empty;
         public string ManagerId { get; set; } = string.Empty;
+        public ICollection<RefreshTokenEmployee> RefreshTokens { get; set; } = [];
     }
 }

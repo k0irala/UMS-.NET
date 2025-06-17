@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using System.Net;
 using UMS.Models.Designation;
 using UMS.Repositories;
@@ -7,6 +8,7 @@ namespace UMS.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize(Roles ="Admin")]
     public class DesignationController(DesignationRepository designation) : ControllerBase
     {
         [HttpPost]

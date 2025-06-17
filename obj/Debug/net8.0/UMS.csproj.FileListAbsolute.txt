@@ -170,4 +170,3 @@ C:\Users\saura\source\repos\UMS\UMS\obj\Debug\net8.0\UMS.pdb
 C:\Users\saura\source\repos\UMS\UMS\obj\Debug\net8.0\UMS.genruntimeconfig.cache
 C:\Users\saura\source\repos\UMS\UMS\obj\Debug\net8.0\ref\UMS.dll
 C:\Users\saura\source\repos\UMS\UMS\bin\Debug\net8.0\Dapper.dll
-C:\Users\saura\source\repos\UMS\UMS\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

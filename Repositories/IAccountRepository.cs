@@ -1,4 +1,5 @@
-﻿using UMS.Models;
+﻿using System.Net;
+using UMS.Models;
 
 namespace UMS.Repositories
 {
@@ -7,7 +8,8 @@ namespace UMS.Repositories
         LoginResponseModel Login(LoginRequestModel requestModel);
         LoginResponseModel RefreshToken(string token, string refreshToken);
         bool Logout(string token);
-        bool UserRegister(UserRegisterModel requestModel);
-        bool ManagerRegister(ManagerRegisterModel requestModel);
+        HttpStatusCode UserRegister(UserRegisterModel requestModel);
+        HttpStatusCode ManagerRegister(ManagerRegisterModel requestModel);
+
     }
 }
